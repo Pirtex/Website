@@ -15,6 +15,23 @@
 
 		  gtag('config', 'AW-17206818789');
 		</script>
+		<script>
+		function gtag_report_conversion(url) {
+		  var callback = function () {
+		    if (typeof(url) != 'undefined') {
+		      window.location = url;
+		    }
+		  };
+		  gtag('event', 'conversion', {
+		      'send_to': 'AW-17206818789/C4n8CPaupdsaEOXv7IxA',
+		      'value': 1.0,
+		      'currency': 'USD',
+		      'event_callback': callback
+		  });
+		  return false;
+		}
+		</script>
+
 	</head>
 	<body>
 		<div class="header">
@@ -29,7 +46,7 @@
 		<div class="main-contact">
 			<h1 class="writetous">Write to us at:</h1>
 			<h1 class="email" id="email">pirtexbusiness@gmail.com</h1>
-			<div id="myButton" class="idid">I did</div>
+			<div id="myButton" class="idid" onlcick="gtag_report_conversion(url)">I did</div>
 		</div>
 		
 		<script type="text/javascript">
