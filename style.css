@@ -50,9 +50,7 @@ body{
 	font-size:3vh;
 }
 
-.banner{
-	width:100vw;
-}
+
 
 .first-body{
 	display:flex;
@@ -155,4 +153,70 @@ body{
 .email {
 	color:#09fbc5;
 	font-size: 10vh;
+	margin-bottom: 5vh;
+}
+
+.idid {
+	background-color: white;
+	font-weight:Bold;
+	font-size:5vh;
+	color:black;
+	padding: 0px 7px 0px 7px;
+	border-radius: 1vw;
+	cursor: default;
+	transition:0.3s
+}
+
+.idid:hover {
+	transform:scale(1.15);
+	background-color: #09fbc5
+}
+
+.about-div{
+	width:100vw;
+	height:84vh;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	color: #09fbc6
+}
+
+.about-h1 {
+	font-size:6vh;
+}
+
+.text {
+	width: 60vw;
+	font-size: 3vh;
+	text-align:center;
+	margin-bottom:5vh;
+}
+
+.contactussmall {
+	transition:0.3s;
+	color:white;
+	text-decoration:none;
+}
+
+.contactussmall:hover {
+	transition:0.3s;
+	color:white;
+	font-size:4.5vh;
+}
+
+.big {
+	font-size:10vh;
+}
+
+.the- {
+	color: white;
+}
+
+.other-skills {
+	font-size:6vh;
+}
+
+.ourotherskills {
+	text-decoration:underline;
 }
