@@ -249,6 +249,14 @@ body{
 	text-decoration:none;
 }
 
+.arrow {
+	width:10vw;
+	position:absolute;
+	top: 30vh;
+	right:13vw;
+	z-index:-10;
+}
+
 .contactussmall:hover {
 	transition:0.3s;
 	color:white;
