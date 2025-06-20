@@ -251,9 +251,9 @@ body{
 
 .arrow {
 	width:10vw;
-	position:absolute;
-	top: 30vh;
-	right:13vw;
+	position:relative;
+	bottom: 14vh;
+	left:31vw;
 	z-index:-10;
 }
 
