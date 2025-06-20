@@ -1,0 +1,255 @@
+*{
+	padding:0px;
+	margin:0px;
+	font-family: "Roboto", sans-serif;
+	font-weight: normal;
+	overflow-x:hidden;
+}
+
+body{
+	background-color:black;
+}
+
+.header{
+	position:sticky;
+	width: 100vw;
+	height: 16vh;
+	background-color:black;
+	color:#09FBC5;
+	display:flex;
+	flex-direction:row;
+	align-items:center;
+	justify-content: space-between;
+}
+
+.logo{
+	height:12vh;
+	padding-left:2vh;
+}
+
+.header-div{
+	height:15vh;
+	width:25vw;
+	display:flex;
+	flex-direction: row;
+	justify-content:center;
+	align-items:center;
+	gap: 2vw;
+}
+
+.header-text{
+	font-weight:bold;
+	font-size: 2.5vh;
+	text-decoration:none;
+	color: #09FBC5;
+	transition:.3s;
+}
+
+.header-text:hover {
+	cursor:default;
+	transition:.3s;
+	font-size:3vh;
+}
+
+
+
+.first-body{
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	gap:5vh;
+	width:100vw;
+	height:100vh;
+}
+
+.question {
+	color:white;
+}
+
+.question:hover{
+	cursor:default;
+}
+
+.buttons-div{
+	width: 20vw;
+	height: 7vh;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	gap: 3vw;
+}
+
+.button1 {
+	background: white;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	width: 6vw;
+	height:5vh;
+	text-decoration:none;
+	border-radius: 1vh;
+	transition:0.3s
+}
+
+.button2 {
+	background: white;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	width: 6vw;
+	height:5vh;
+	text-decoration:none;
+	border-radius: 1vh;
+	transition:0.3s
+}
+
+.button1:hover{
+	transition:0.3s;
+	transform:scale(1.15);
+	background-color: green;
+}
+
+.button2:hover{
+	transition:0.3s;
+	transform:scale(1.15);
+	background-color: red;
+}
+
+.no {
+	font-weight:bold;
+	font-size: 4vh;
+}
+
+.no:hover {
+	cursor:pointer;
+}
+
+.welcome {
+	height: 5vh;
+	padding-top: 2vh;
+	width: 100vw;
+	text-align:center;
+	color: #09FBC5;
+	align-content:center;
+}
+
+.banner {
+	width:100vw;
+}
+
+.main-contact {
+	width:100vw;
+	height:84vh;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+}
+
+.writetous{
+	color:#09fbc5
+}
+
+.email {
+	color:#09fbc5;
+	font-size: 10vh;
+	margin-bottom: 5vh;
+}
+
+.idid {
+	background-color: white;
+	font-weight:Bold;
+	font-size:5vh;
+	color:black;
+	padding: 0px 7px 0px 7px;
+	border-radius: 1vw;
+	cursor: default;
+	transition:0.3s
+}
+
+.idid:hover {
+	transform:scale(1.15);
+	background-color: #09fbc5
+}
+
+.about-div{
+	width:100vw;
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
+	color: #09fbc6
+}
+
+.about-h1 {
+	font-size:6vh;
+}
+
+.text {
+	width: 60vw;
+	font-size: 3vh;
+	text-align:center;
+	margin-bottom:5vh;
+}
+
+.vid-calendar {
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	gap: 10vw;
+}
+
+.calendly-inline-widget{
+	overflow-y:hidden;
+}
+
+.metoogle {
+	margin-top:5vh;
+	padding:2vh 0 2vh 0;
+	background-color:rgba(255,255,255,0.03);
+	width:100vw;
+	display:flex;
+	justify-content: space-between;
+	align-items:center;
+}
+
+.metoogle-pic {
+	height:20vh;
+	padding-right:10vw;
+	padding-left:10vw;
+}
+
+.metoogle-text {
+	font-size: 3vh;
+	padding-right:10vw;
+	padding-left:10vw;
+}
+
+.contactussmall {
+	transition:0.3s;
+	color:white;
+	text-decoration:none;
+}
+
+.contactussmall:hover {
+	transition:0.3s;
+	color:white;
+	font-size:4.5vh;
+}
+
+.big {
+	font-size:10vh;
+}
+
+.the- {
+	color: white;
+}
+
+.other-skills {
+	font-size:6vh;
+}
+
+.ourotherskills {
+	text-decoration:underline;
+}
