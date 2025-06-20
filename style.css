@@ -10,6 +10,14 @@ body{
 	background-color:black;
 }
 
+.ben {
+	margin-top:5vh;
+}
+
+.tom {
+	margin-bottom:5vh;
+}
+
 .header{
 	position:sticky;
 	width: 100vw;
@@ -190,14 +198,18 @@ body{
 	width: 60vw;
 	font-size: 3vh;
 	text-align:center;
-	margin-bottom:5vh;
 }
 
 .vid-calendar {
+	width:100vw;
 	display:flex;
 	justify-content:center;
 	align-items:center;
+	background-color:rgba(255,255,255,0.03);
+	margin: 5vh 0 5vh 0;
+	padding:2vh 0 2vh 0;
 	gap: 10vw;
+	overflow-y:hidden;
 }
 
 .calendly-inline-widget{
