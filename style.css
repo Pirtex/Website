@@ -18,6 +18,11 @@ body{
 	margin-bottom:5vh;
 }
 
+.white {
+	color:white;
+	font-size:5vh;
+}
+
 .header{
 	position:sticky;
 	width: 100vw;
