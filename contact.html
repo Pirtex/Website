@@ -6,33 +6,15 @@
 		<link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 		<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-		<script async src="https://www.googletagmanager.com/gtag/js?id=AW-17206818789">
-		</script>
-		<script>
-		  window.dataLayer = window.dataLayer || [];
-		  function gtag(){dataLayer.push(arguments);}
-		  gtag('js', new Date());
-
-		  gtag('config', 'AW-17206818789');
-		</script>
-		<script>
-		function gtag_report_conversion(url) {
-		  var callback = function () {
-		    if (typeof(url) != 'undefined') {
-		      window.location = url;
-		    }
-		  };
-		  gtag('event', 'conversion', {
-		      'send_to': 'AW-17206818789/C4n8CPaupdsaEOXv7IxA',
-		      'value': 1.0,
-		      'currency': 'USD',
-		      'event_callback': callback
-		  });
-		  return false;
-		}
-		</script>
-
 	</head>
+	<script async src="https://www.googletagmanager.com/gtag/js?id=G-LXBGRJFFT0"></script>
+	<script>
+	  window.dataLayer = window.dataLayer || [];
+	  function gtag(){dataLayer.push(arguments);}
+	  gtag('js', new Date());
+
+	  gtag('config', 'G-LXBGRJFFT0');
+	</script>
 	<body>
 		<div class="header">
 			<img class="logo" src="logo.png" />
@@ -44,15 +26,14 @@
 		</div>
 		
 		<div class="main-contact">
-			<h1 class="writetous">Write to us at:</h1>
-			<h1 class="email" id="email">pirtexbusiness@gmail.com</h1>
-			<div id="myButton" class="idid" onlcick="gtag_report_conversion(url)">I did</div>
+			<div class="vid-calendar">
+			<video height="600px" controls>
+			  <source src="Info-video.mp4" type="video/mp4">
+			Your browser does not support the video tag.
+			</video>
+			<div class="calendly-inline-widget" data-url="https://calendly.com/pirtex/call?hide_event_type_details=1&hide_gdpr_banner=1" style="min-width:330px;height:600px"></div>
+			<script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+			</div>
 		</div>
-		
-		<script type="text/javascript">
-			document.getElementById("myButton").onclick = function () {
-				location.href = "thankyou.html";
-			};
-		</script>
 	</body>
 </html>
