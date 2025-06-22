@@ -167,6 +167,20 @@ body{
 	gap: 5vw;
 }
 
+.left-contact {
+	display:flex;
+	justify-content:end;
+	align-items:center;
+	flex-direction:column;
+	height:78vh;
+}
+
+.no-time {
+	color:white;
+	text-align:center;
+	font-size:3vh;
+}
+
 .book-a-call {
 	width:25vw;
 }
