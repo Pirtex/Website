@@ -124,7 +124,7 @@ body{
 .button1:hover{
 	transition:0.3s;
 	transform:scale(1.15);
-	background-color:#09FBC5;
+	background-color: #09FBC5;
 }
 
 .button2:hover{
