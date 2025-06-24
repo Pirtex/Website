@@ -79,6 +79,11 @@ body{
 	height:100vh;
 }
 
+.banner {
+	width:100vw;
+}
+
+
 .question {
 	color:white;
 }
@@ -123,7 +128,7 @@ body{
 .button1:hover{
 	transition:0.3s;
 	transform:scale(1.15);
-	background-color: #09FBC5;
+	background-color: #09fbc5;
 }
 
 .button2:hover{
@@ -148,10 +153,6 @@ body{
 	text-align:center;
 	color: #09FBC5;
 	align-content:center;
-}
-
-.banner {
-	width:100vw;
 }
 
 .main-contact {
@@ -205,6 +206,15 @@ body{
 	transition:0.3s
 }
 
+.emailthing {
+		height:20vh;
+		height:35vh;
+		display:flex;
+		justify-content:center;
+		align-items:center;
+		flex-direction:column;
+	}
+
 .idid:hover {
 	transform:scale(1.15);
 	background-color: #09fbc5
@@ -242,7 +252,10 @@ body{
 }
 
 .calendly-inline-widget{
+	position:relative;
 	overflow-y:hidden;
+	min-width:330px;
+	height:600px
 }
 
 .metoogle {
@@ -261,7 +274,12 @@ body{
 	padding-left:10vw;
 }
 
+.jebeni-video{
+	height:600px;
+}
+
 .metoogle-text {
+	text-align:right;
 	font-size: 3vh;
 	padding-right:10vw;
 	padding-left:10vw;
@@ -301,3 +319,135 @@ body{
 
 .ourotherskills {
 	text-decoration:underline;
+}
+@media (max-width: 1080px){
+	.benny {
+			text-align:center;
+	}
+}
+
+@media (max-width: 1080px) and (orientation: portrait){
+	
+	.neb {
+		margin-top:0px;
+	}
+	
+	.banner {
+		width:200vw;
+		margin-bottom: 15vh;
+	}
+	
+	.question {
+		font-size: 5vw;
+        width: 75vw;
+		text-align: center;
+	}
+	
+	.buttons-div {
+		width: 100vw;
+	}
+	
+	.button1 {
+		width:15vw;
+	}
+	
+	.button2 {
+		width:15vw;
+	}
+	
+	.logo {
+		height: 12vh;
+		padding-top: 2vh;
+		padding-left: 0px;
+	}
+	
+	.header {
+		flex-direction: column;
+	}
+	
+	.header-div {
+		width: 100vw;
+		gap: 5vw;
+	}
+	
+	.contact-body {
+		overflow:hidden;
+	}
+	
+	.main-contact {
+		height:80vh;
+		flex-direction: column-reverse;
+		overflow:hidden;
+		gap:10vh;
+	}
+	
+	.left-contact {
+		height: 20vh;
+		justify-content:space-between;
+	}
+	
+	.calendarcina {
+		height: 27vh;
+        width: 32vw;
+        transform: scale(2);
+		margin-bottom: 9vh;
+	}
+	
+	.calendly-inline-widget {
+		overflow-y: hidden;
+	}
+	
+	.emailthing {
+		height:11vh;
+	}
+	
+	.book-a-call {
+		width: 80vw;
+	}
+	
+	._bfq2ICzWNjlQBZ0iR8a.w7G4obFP7QpvbNJGVAWc {
+		padding-top: 20vh;
+	}
+	
+	.about-h1 {
+		margin-top:5vh;
+	}
+	
+	.text {
+		width:80vw;
+	}
+	
+	.arrow {
+		left:5000px
+	}
+	
+	.big {
+		font-size: 8vh
+	}
+	
+	.metoogle-text {
+		text-align:center;
+	}
+	
+	.vid-calendar {
+		flex-direction:column;
+		height:150vh;
+		justify-content: start;
+		gap:27vh;
+	}
+	
+	.abcal {
+		left:10000px;
+	}
+	
+	
+	.jebeni-video {
+		width:90vw;
+		height:auto;
+	}
+	
+	.metoogle {
+		flex-direction: column;
+		gap: 5vh;
+	}
+}
