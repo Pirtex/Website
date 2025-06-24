@@ -40,9 +40,11 @@
 		<script>
 			document.getElementById('button1').addEventListener('click', function() {
 			  window.location.href = 'contact.html';
+			  fbq('track', 'Yes');
 			});
 			document.getElementById('button2').addEventListener('click', function() {
 			  window.location.href = 'first.html';
+			  fbq('track', 'No');
 			});
 		</script>
 	</body>
